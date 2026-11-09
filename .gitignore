@@ -1,0 +1,7 @@
+# Local environment and temporary files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/

@@ -12,7 +12,7 @@
 
 ## 현재 상태
 
-로컬 작성·검증본입니다. GitHub 원격 저장소 생성, push, GitHub Pages 활성화 및 Play Console 등록은 아직 하지 않았습니다. 기존 privacy-policy 저장소와 퀴즈 앱의 런타임·AAB는 변경하지 않습니다.
+HTML 작성·로컬 검증을 마쳤으며, 사용자 요청으로 GitHub 원격 `https://github.com/BrokenMental/terms-of-service`를 origin에 연결했습니다. 원격이 비어 있음을 확인하고 main 최초 push를 준비했습니다. GitHub Pages 활성화·공개 URL 및 Play Console 등록은 별도 확인 대상입니다. 기존 privacy-policy 저장소와 퀴즈 앱의 런타임·AAB는 변경하지 않습니다.
 
 ## 미리보기
 
@@ -20,7 +20,7 @@
 
 ## GitHub Pages 게시
 
-1. 기존 정책 사이트와 같은 GitHub 계정 `BrokenMental`에 `terms-of-service` 저장소를 준비합니다. 로컬 저장소의 원격은 아직 설정하지 않았습니다.
+1. 기존 정책 사이트와 같은 GitHub 계정 `BrokenMental`에 `terms-of-service` 저장소를 준비합니다. 로컬 origin은 해당 저장소로 설정되어 있습니다.
 2. 원격을 연결하고 `main` 브랜치를 push합니다. 원격에 기존 내용이 있다면 먼저 확인하며 강제 push하지 않습니다.
 3. 저장소 Settings → Pages에서 `Deploy from a branch`, `main`, `/(root)`를 선택합니다. 계정의 Pages 이용 조건과 저장소 공개 범위를 확인합니다.
 4. 배포 완료 후 아래 예상 URL이 로그인 없이 열리는지, 모바일 화면·개인정보처리방침 연결이 정상인지 확인합니다.
